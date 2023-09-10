@@ -14,6 +14,7 @@ public class PrioritySolution {
     public static void main(String... args) {
         int totalNumberOfEvents = Integer.parseInt(scanner.nextLine());
         List<String> events = new ArrayList<>();
+        System.out.println("Text added for checking pull request in Intellij..");
 
         while (totalNumberOfEvents-- != 0) {
             String event = scanner.nextLine();
