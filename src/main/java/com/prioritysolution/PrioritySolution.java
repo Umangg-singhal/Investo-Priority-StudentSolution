@@ -16,6 +16,7 @@ public class PrioritySolution {
         List<String> events = new ArrayList<>();
         System.out.println("Text added for checking pull request in Intellij..");
         System.out.println("Another text added for checking pull request in Intellij..");
+        System.out.println("Text added from Intellij only");
 
         while (totalNumberOfEvents-- != 0) {
             String event = scanner.nextLine();
